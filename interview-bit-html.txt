@@ -1,0 +1,11 @@
+###################### HTML ######################################
+
+1. Can we display a web page inside a web page or Is nesting of webpages possible?
+
+2. What are tags and attributes in HTML?
+
+3. What are void elements in HTML?
+
+4. What is the advantage of collapsing white space?
+
+5. What are HTML Entities?

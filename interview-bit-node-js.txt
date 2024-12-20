@@ -1,0 +1,12 @@
+############################### NODE JS ###############################
+
+
+1. What is Node.js and how it works?
+
+2. What tools can be used to assure consistent code style?
+
+3. What is a first class function in Javascript?
+
+4. How do you manage packages in your node.js project?
+
+5. How is Node.js better than other frameworks most popularly used?

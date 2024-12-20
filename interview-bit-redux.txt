@@ -1,0 +1,12 @@
+###################### REDUX ###########################################
+
+
+1. Show with an example how reducers are used in Redux.
+
+2. Is it necessary to keep all the component states in the Redux store?
+
+3. What is Flux?
+
+4. Difference between Redux and Flux.
+
+5. What is Redux in React js?
