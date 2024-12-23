@@ -9,105 +9,222 @@ Interview Bit
 
 1. What are the different data types present in javascript?
 
+Primitive: String, Number, Boolean, Null, Undefined, Symbol, BigInt.
+Non-Primitive: Object (including Array, Function).
+
 2. Explain Hoisting in javascript.
 
+Variables and functions are moved to the top of their scope before code execution.
+Example:
+console.log(x); // undefined
+var x = 5;
+
 3. Why do we use the word “debugger” in javascript?
+To pause code execution at a specific point for debugging purposes.
 
 4. Difference between “ == “ and “ === “ operators.
 
+== checks for value equality (type coercion).
+=== checks for value and type equality.
+
 5. Difference between var and let keyword in javascript.
 
+var is function-scoped and can be re-declared.
+let is block-scoped and cannot be re-declared.
+
 6. Explain Implicit Type Coercion in javascript.
+Automatic conversion of one data type to another.
+Example:
+"5" + 1; // "51"
+"5" - 1; // 4
 
 7. Is javascript a statically typed or a dynamically typed language?
+Dynamically typed.
 
 8. What is NaN property in JavaScript?
+A special value indicating "Not a Number".
+Example:
+console.log(0 / 0); // NaN
 
 9. Explain passed by value and passed by reference.
+Primitive types: Passed by value (copied).
+Objects: Passed by reference (same memory address).
 
 10. What is an Immediately Invoked Function in JavaScript?
+A function that runs as soon as it is defined.
+(function() { console.log("IIFE"); })();
 
 11. What do you mean by strict mode in javascript and characteristics of javascript strict-mode?
 
+A mode enforcing stricter parsing and error handling.
+"use strict";
+
 12. Explain Higher Order Functions in javascript.
 
+Functions that accept other functions as arguments or return functions.
+Example:
+function higher(fn) { return fn(); }
+
 13. Explain “this” keyword.
+Refers to the object it belongs to; context depends on where it's used.
 
 14. What do you mean by Self Invoking Functions?
+Functions that run immediately when defined (similar to IIFE).
 
 15. Explain call(), apply() and, bind() methods.
+call(): Calls a function with a specific this and arguments.
+apply(): Similar to call() but accepts arguments as an array.
+bind(): Returns a new function with a specific this.
 
 16. What is the difference between exec () and test () methods in javascript?
+exec(): Returns matched data from a regex.
+test(): Returns true or false if a match is found.
 
 17. What is currying in JavaScript?
+Transforming a function to accept arguments one at a time.
+Example:
+const add = (a) => (b) => a + b;
+console.log(add(2)(3)); // 5
+
 
 18. What are some advantages of using External JavaScript?
+Reusability.
+Separation of concerns.
+Improves page loading speed.
 
 19. Explain Scope and Scope Chain in javascript.
+Scope: Accessibility of variables.
+Scope Chain: Links between scopes to access variables.
 
 20. Explain Closures in JavaScript.
+A function accessing variables from its outer scope even after the outer function finishes execution.
 
 21. Mention some advantages of javascript.
+Lightweight.
+Cross-platform.
+Rich frameworks.
 
 22. What are object prototypes?
+Mechanism by which objects inherit features from other objects.
 
 23. What are callbacks?
+Functions passed as arguments to other functions to be executed later.
 
 24. What are the types of errors in javascript?
+Syntax, Runtime, and Logical Errors.
 
 25. What is memoization?
+Storing results of expensive function calls to reuse.
 
 26. What is recursion in a programming language?
+A function calling itself.
 
 27. What is the use of a constructor function in javascript?
+To create and initialize objects.
 
 28. What is DOM?
+Document Object Model represents the structure of a web page.
 
 29. Which method is used to retrieve a character from a certain index?
+charAt(index).
 
 30. What do you mean by BOM?
+Browser Object Model for browser components like window.
 
 31. What is the distinction between client-side and server-side JavaScript?
+Client-side: Runs in the browser.
+Server-side: Runs on a server (e.g., Node.js).
+
+
+///////// Difficult
 
 1. What are arrow functions?
+A concise way to write functions.
+Example:
+const add = (a, b) => a + b;
 
 2. What do mean by prototype design pattern?
+A way to create objects based on a template object (prototype).
 
 3. Differences between declaring variables using var, let and const.
+A way to create objects based on a template object (prototype).
 
 4. What is the rest parameter and spread operator?
+Rest Parameter: Collects arguments into an array.
+Example:
+function sum(...args) { return args.reduce((a, b) => a + b); }
+Example:
+const arr = [1, 2, 3];
+console.log(...arr); // 1 2 3
+
 
 5. In JavaScript, how many different methods can you make an object?
+Object Literals
+new Object()
+Constructor Functions
+Object.create()
+ES6 Classes
 
 6. What is the use of promises in javascript?
+Example:
+const promise = new Promise((resolve, reject) => { resolve("Done"); });
+
 
 7. What are classes in javascript?
+ES6 syntax for creating objects and handling inheritance.
+Example:
+class Person { constructor(name) { this.name = name; } }
+
 
 8. What are generator functions?
+Functions that can be paused and resumed with yield.
+Example:
+function* gen() { yield 1; yield 2; }
+
 
 9. Explain WeakSet in javascript.
+A collection of objects with no duplicates and weak references.
 
 10. Why do we use callbacks?
+To execute code after an asynchronous operation finishes.
+
+
 
 11. Explain WeakMap in javascript.
+A collection of key-value pairs where keys are objects with weak references.
 
 12. What is Object Destructuring?
+Extracting properties into variables.
+Example:
+const { a, b } = { a: 1, b: 2 };
+
 
 13. Difference between prototypal and classical inheritance
+Prototypal: Objects inherit directly from other objects.
+Classical: Inheritance via classes (ES6).
 
 14. What is a Temporal Dead Zone?
+Time between let/const declaration and initialization.
 
 15. What do you mean by JavaScript Design Patterns?
+Reusable solutions to common coding problems (e.g., Singleton, Factory).
 
 16. Is JavaScript a pass-by-reference or pass-by-value language?
+Pass-by-value for primitives.
+Pass-by-reference for objects.
 
 17. Difference between Async/Await and Generators usage to achieve the same functionality.
+Async/Await: Cleaner syntax, built-in promises.
+Generators: Requires manual handling with .next().
 
 18. What are the primitive data types in JavaScript?
+String, Number, Boolean, Null, Undefined, Symbol, BigInt.
 
 19. What is the role of deferred scripts in JavaScript?
+Load scripts in order after the HTML is fully parsed.
 
 20. What has to be done in order to put Lexical Scoping into practice?
+Ensure inner functions access variables from their outer functions.
 
 21. What is the purpose of the following JavaScript code?
 
