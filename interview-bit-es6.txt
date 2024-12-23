@@ -1,5 +1,7 @@
 ###################### ES6 ################################
 
+=====>>> Interview Bit <<<=======
+
 1. What is Bubbling and Capturing?
 
 2. What is the difference between for..of and for..in?
@@ -9,3 +11,72 @@
 4. What is Babel?
 
 5. Name some array methods that were introduced in ES6.
+
+6. Name some string functions introduced in ES6.
+
+7. Compare the ES5 and ES6 codes for object initialization and parsing returned objects.
+
+8. How do you use Destructuring Assignment to swap variables?
+
+9. What is the result of the spread operator array shown below?
+
+10. Which keyword can be used to deploy inheritance in ES6?
+
+11. Explain the Rest parameter in ES6.
+
+12. What are the object oriented features supported in ES6.
+
+13. Give a thorough comparison between ES5 and ES6.
+
+14. What is the difference between let and const? What distinguishes both from var?
+
+15. Discuss the arrow function.
+
+16. When should one not use arrow functions?
+
+17. What is the generator function?
+
+18. What is the “spread” operator in ES6?
+
+19. Explain Destructuring in ES6.
+
+20. What are Promises in ES6?
+
+21. Mention some popular features of ES6.
+
+22. Discuss the template literals in ES6.
+
+23. Why should one use ES6 classes?
+
+24. How can you create a class in ES6?
+
+25. What is a class expression?
+
+26. What do you understand about default parameters?
+
+27. What do you understand about IIFE (Immediately Invoked Function Expressions)?
+
+28. What are the states of Promises in ES6?
+
+29. What is Export Default and Named Export in ES6?
+
+1. What is the Prototype Design Pattern?
+
+2. What is a WeakMap in ES6? How is it different from a Map?
+
+3. What is the advantage of using the arrow syntax for a constructor method?
+
+4. What is a Temporal Dead Zone?
+
+5. What is the difference between Set and WeakSet in ES6?
+
+6. What are Proxy in ES6?
+
+7. What is the difference between const and Object.freeze().
+
+8. Why does the following not work as an IIFE (Immediately Invoked Function Expressions) ? What needs to be modified in order for it to be classified as an IIFE?
+function f(){ }();
+
+9. Explain Internationalization and Localization.
+
+10. What is Webpack?

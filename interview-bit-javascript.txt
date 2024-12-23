@@ -4,6 +4,8 @@ Interview Bit
 
 ################ JAVASCRIPT ###############################################
 
+=====>>> Interview Bit <<<=======
+
 
 1. What are the different data types present in javascript?
 
@@ -15,4 +17,294 @@ Interview Bit
 
 5. Difference between var and let keyword in javascript.
 
+6. Explain Implicit Type Coercion in javascript.
 
+7. Is javascript a statically typed or a dynamically typed language?
+
+8. What is NaN property in JavaScript?
+
+9. Explain passed by value and passed by reference.
+
+10. What is an Immediately Invoked Function in JavaScript?
+
+11. What do you mean by strict mode in javascript and characteristics of javascript strict-mode?
+
+12. Explain Higher Order Functions in javascript.
+
+13. Explain “this” keyword.
+
+14. What do you mean by Self Invoking Functions?
+
+15. Explain call(), apply() and, bind() methods.
+
+16. What is the difference between exec () and test () methods in javascript?
+
+17. What is currying in JavaScript?
+
+18. What are some advantages of using External JavaScript?
+
+19. Explain Scope and Scope Chain in javascript.
+
+20. Explain Closures in JavaScript.
+
+21. Mention some advantages of javascript.
+
+22. What are object prototypes?
+
+23. What are callbacks?
+
+24. What are the types of errors in javascript?
+
+25. What is memoization?
+
+26. What is recursion in a programming language?
+
+27. What is the use of a constructor function in javascript?
+
+28. What is DOM?
+
+29. Which method is used to retrieve a character from a certain index?
+
+30. What do you mean by BOM?
+
+31. What is the distinction between client-side and server-side JavaScript?
+
+1. What are arrow functions?
+
+2. What do mean by prototype design pattern?
+
+3. Differences between declaring variables using var, let and const.
+
+4. What is the rest parameter and spread operator?
+
+5. In JavaScript, how many different methods can you make an object?
+
+6. What is the use of promises in javascript?
+
+7. What are classes in javascript?
+
+8. What are generator functions?
+
+9. Explain WeakSet in javascript.
+
+10. Why do we use callbacks?
+
+11. Explain WeakMap in javascript.
+
+12. What is Object Destructuring?
+
+13. Difference between prototypal and classical inheritance
+
+14. What is a Temporal Dead Zone?
+
+15. What do you mean by JavaScript Design Patterns?
+
+16. Is JavaScript a pass-by-reference or pass-by-value language?
+
+17. Difference between Async/Await and Generators usage to achieve the same functionality.
+
+18. What are the primitive data types in JavaScript?
+
+19. What is the role of deferred scripts in JavaScript?
+
+20. What has to be done in order to put Lexical Scoping into practice?
+
+21. What is the purpose of the following JavaScript code?
+
+
+
+
+
+=====>>>> Sangam <<<======
+
+
+
+
+1 What are the data types in JavaScript?
+2 What is the difference between == and ===?
+3 What is the difference between null and undefined?
+4 Explain the concept of hoisting in JavaScript.
+5 What is the difference between let, const, and var?
+6 What is variable scope in JavaScript?
+7 Explain the difference between global and local variables.
+8 What is the temporal dead zone?
+9 What is variable shadowing?
+10 What is a closure in JavaScript?
+11 What are the different ways to define a function in JavaScript?
+12 What is a higher-order function?
+13 Explain the concept of function hoisting.
+14 What is a pure function?
+15 What is the difference between function declaration and function expression?
+16 What is an Immediately Invoked Function Expression (IIFE)?
+17 How do you create an object in JavaScript?
+18 How do you add/remove properties to an object dynamically?
+19 How do you check if a property exists in an object?
+20 What is the purpose of the this keyword in JavaScript?
+21 What are the different ways to loop through an array in JavaScript?
+22 Explain the difference between for...in and for...of loops.
+23 How do you add/remove elements from an array?
+24 What is the purpose of the map() function?
+25 Explain the difference between filter() and find() methods.
+26 Explain the difference between some() and every() method.
+27 How do you select elements in the DOM using JavaScript?
+28 8How do you create and append elements to the DOM?
+29 Explain the difference between innerHTML and textContent.
+30 How do you remove an element from the DOM?
+31 What are arrow functions and how do they differ from regular functions?
+32 Explain the concept of destructuring in JavaScript.
+33 What are template literals?
+34 How do you use the spread operator?
+35 What are default parameters in ES6?
+36 How do you use the rest parameter in functions?
+37 What is callback & callback hell explain with example
+38 What is a Promise in JavaScript with example?
+39 How do you chain Promises?
+40 What is the purpose of the Promise.all() method?
+41 What is the purpose of the finally() method in Promises?
+42 What is the purpose of the async await ?
+43 How do you handle errors in async/await?
+44 What is the difference between async/await and Promises?
+45 What is the difference between default and named exports?
+46 How do you convert a JavaScript object to a JSON string ?
+47 How do you parse a JSON string back into a JavaScript object?
+48 What is localStorage in JavaScript, and how do you store and retrieve data from it?
+49 What is the difference between localStorage and sessionStorage?
+50 How do you delete a specific item from localStorage or clear all data from it?
+
+
+
+
+
+====>>>> INTERVIEW HAPPY <<<<=====
+
+
+1 what is Javascript? what is the role of JS engine?
+2 What are Client side and Server side?
+3 What is Scope in JS?
+4 What is Hoisting in Javascript?
+5 What is JSON?
+
+6 What are variables? var vs let vs const.
+7 What are data types in JS?
+8 what is the difference between primitive and non-primitive data types?
+9 what is the difference between null and undefined in JS?
+10 what is the use of typeof operator?
+11 what is type coercion in JS?
+
+12 what is operator precedence?
+13 Unary vs Binary vs Ternary operators.
+14 What is short-circuit evaluation in JS?
+15 Conditional Statement Types.
+16 Double equals == vs === Triple equals 
+17 Spread operator and Rest operator in JS
+
+18 what are arrays in JS? How to insert, remove, access, sort, reverse and manipulate array elements? 
+19 what is Array Destructing in JS?
+20 what are array-like objects in JS?
+21 How to convert an array-like object into an array?
+
+22 what are loops? what are the types of loops in JS?
+23 what is the difference between for and for..of loops in JS?
+24 what is the difference between for..of and for..in loops in JS?
+25 what is forEach loop? Compare it with the above methods.
+
+26 what are Functions in JS? what are the types of functions?
+27 what is the difference between arguments and parameters?
+28 Default Parameters in functions in JS.
+29 what is the use of event handling in JS?
+30 what are First-Class functions in JS?
+31 what are Pure and Impure functions in JS?
+32 what is Function Currying in JS?
+33 call() & apply() & bind() methods in JS?
+
+34 what is a string?
+35 Template Literals and String Interpolation
+36 single quotes vs double quotes vs backticks
+37 String Operations in JS
+38 what is string immutability?
+39 Different ways to concatenate strings in JS
+
+40 what is DOM? what is the difference between HTML and DOM?
+41 How do you select, modify, or remove DOM elements?
+42 Selectors in JS DOM.
+43 what are the methods to manipulate elements, properties and attributes of JS DOM?
+44 what is the difference between innerHTML vs textContent?
+45 How to add or remove properties of HTML elements from the DOM using JS?
+46 How to add or remove style of HTML elements in the DOM using JS?
+47 How to create new elements in DOM using JS?
+
+48 Error Handling in JS
+49 what is Error Propagation in JS?
+50 Error Handling Best Practices
+51 what are the different types of error in JS?
+
+
+52 what are objects in JS? 
+
+53 what is the difference between an array and an object?
+
+54 How to manipulate Objects in JS?
+
+55 Dot Notation vs Bracket Notation
+
+56 How to iterate through Objects in JS?
+
+57 How to check if a property exists or not?
+
+58 How to clone an object?
+
+59 Sets in JS
+60 Map Object in JS
+
+61 Events in JS
+62 Event Delegation in JS
+63 Event Bubbling and Event Capturing in JS
+64	event.preventDefault() method in JS
+65 The use of "this" keyword in the context of event handling in JS
+66 How to remove (unattach) an event handler from an element in JS
+
+
+
+====>>>>> WEB DEV MASTERY <<<<========
+
+
+1.) Basic Level:
+ Intro
+ What is JavaScript? How is it different from Java? 
+ Explain the difference between var, let, and const. 
+ What are the data types in JavaScript? 
+ What is hoisting in JavaScript?  
+ What are closures in JavaScript? 
+ What is the difference between == and === in JavaScript? 
+ Explain how this keyword works in JavaScript. 
+ What is an event in JavaScript? How do you prevent default behavior? 
+ What are arrow functions, and how are they different from regular functions?  
+ What is NaN in JavaScript? How do you check if a value is NaN? 
+
+2.) Intermediate Level:
+ What is the difference between synchronous and asynchronous programming in JavaScript?  
+ Explain the concept of promises in JavaScript. 
+ What are callback functions? How are they used? 
+ What are JavaScript prototypes and how do they work? 
+ What is the event loop in JavaScript? How does it work with asynchronous code? 
+ Explain how map(), filter(), and reduce() functions work. 
+ What is the purpose of async and await in JavaScript? 
+ How does JavaScript handle memory management and garbage collection? 
+ What is the debounce function in JavaScript? How is it different from throttle? 
+ What is destructuring in JavaScript? Provide examples of array and object destructuring.
+
+ 3.) Advanced Level:
+ Explain the concept of event delegation in JavaScript. 
+ What are generators in JavaScript, and how do they differ from regular functions? 
+ What are JavaScript modules, and how do you use import and export? 
+ What is the Proxy object in JavaScript, and what are its use cases? 
+ Explain currying in JavaScript.  
+ What are the differences between deep cloning and shallow cloning in JavaScript? How would you implement both? 
+ What is memoization, and how would you implement it in JavaScript? 
+ Explain the concept of weak maps and weak sets in JavaScript.  
+ What is the difference between function declarations and function expressions? 
+ What is a JavaScript Symbol, and when would you use it? 
+ How does the apply, call, and bind methods work in JavaScript? Provide examples. 
+ What is the purpose of the async iterator, and how does it differ from a regular iterator? 
+ How can you prevent object mutation in JavaScript? 
+ DSA Coding Question's In JavaScript 
